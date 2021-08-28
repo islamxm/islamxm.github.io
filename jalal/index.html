@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Jalal's NFT</title>
+</head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="./img/logo.png">
+                        </a>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__nav_list">
+                            <li>
+                                <a href="#" class="header__nav_item">mint</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__nav_item">nft</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__nav_item">bonus drop</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__nav_item">team</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__nav_item">roadmap</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__nav_item">faq</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__social">
+                        <a href="#" class="header__social_item header__social_opensea">
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.118 12.815l.08-.138 4.875-8.23a.161.161 0 01.292.023c.815 1.97 1.517 4.42 1.188 5.945-.14.627-.525 1.477-.958 2.262a4.212 4.212 0 01-.183.335.163.163 0 01-.139.079H1.26c-.135 0-.214-.158-.142-.276z" fill="#B8BCCB"/><path d="M24 15.34v1.393c0 .08-.044.151-.108.183-.392.186-1.734.87-2.292 1.733C20.176 20.85 19.088 24 16.656 24H6.51C2.914 24 0 20.751 0 16.742v-.129c0-.106.078-.193.174-.193H5.83c.112 0 .194.116.184.238-.04.409.028.826.202 1.206.336.758 1.032 1.232 1.784 1.232h2.8v-2.43H8.032c-.142 0-.226-.182-.144-.31.03-.052.064-.105.1-.165a22.91 22.91 0 001.008-1.786c.254-.494.5-1.02.698-1.55.04-.095.072-.193.104-.288.054-.17.11-.327.15-.485.04-.133.072-.273.104-.404.094-.45.134-.925.134-1.418 0-.193-.008-.396-.024-.589a8.458 8.458 0 00-.056-.633 7.248 7.248 0 00-.078-.565c-.04-.282-.096-.562-.16-.844l-.022-.107c-.048-.193-.088-.378-.144-.57A23.245 23.245 0 009.17 5.2c-.07-.22-.15-.431-.23-.642-.118-.318-.238-.607-.348-.88a12.939 12.939 0 01-.152-.354c-.054-.13-.11-.262-.166-.386-.04-.096-.086-.185-.118-.274l-.342-.702c-.048-.095.032-.209.126-.18l2.14.645h.006l.008.002.282.087.31.097.114.036V1.236C10.8.553 11.292 0 11.9 0c.304 0 .58.138.778.362.198.225.322.531.322.874v2.097l.228.071a.176.176 0 01.052.03l.238.2c.08.07.166.157.27.246.206.184.452.422.722.696.072.068.142.14.206.21.348.36.738.783 1.11 1.25.104.13.206.264.31.404.104.142.214.282.31.422.126.187.262.38.38.582.056.096.12.194.174.29.152.255.286.52.414.784.054.122.11.255.158.386.142.354.254.714.326 1.074.022.078.038.162.046.238v.017c.024.107.032.22.04.336a3.98 3.98 0 01-.174 1.573c-.048.151-.096.31-.158.458-.12.309-.262.618-.43.907-.054.106-.118.22-.182.326-.07.114-.142.22-.206.325a6.771 6.771 0 01-.278.398 4.178 4.178 0 01-.27.377c-.134.176-.262.343-.396.503-.08.104-.166.21-.254.306-.086.107-.174.202-.254.291-.134.15-.246.265-.34.36l-.22.225a.17.17 0 01-.118.049H13v2.429h2.144c.48 0 .936-.19 1.304-.536.126-.122.676-.651 1.326-1.449a.164.164 0 01.082-.055l5.922-1.903c.11-.035.222.058.222.187z" fill="#B8BCCB"/></svg>
+                        </a>
+                        <a href="#" class="header__social_item header__social_twitter">
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.864 9.864 0 01-3.127 1.195 4.916 4.916 0 00-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 3.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 19.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 4.557z" fill="#B8BCCB"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
+                        </a>
+                        <a href="#" class="header__social_item header__social_discord">
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.54 0A2.466 2.466 0 0122 2.472V24l-2.58-2.28-1.452-1.344-1.536-1.428.636 2.22H3.46A2.466 2.466 0 011 18.696V2.472A2.466 2.466 0 013.46 0h16.08zm-4.632 15.672c2.652-.084 3.672-1.824 3.672-1.824 0-3.864-1.728-6.996-1.728-6.996-1.728-1.296-3.372-1.26-3.372-1.26l-.168.192c2.04.624 2.988 1.524 2.988 1.524a9.782 9.782 0 00-6.036-1.128l-.204.024c-.42.036-1.44.192-2.724.756-.444.204-.708.348-.708.348s.996-.948 3.156-1.572l-.12-.144s-1.644-.036-3.372 1.26c0 0-1.728 3.132-1.728 6.996 0 0 1.008 1.74 3.66 1.824 0 0 .444-.54.804-.996-1.524-.456-2.1-1.416-2.1-1.416l.336.204.048.036.047.027.014.006.047.027c.3.168.6.3.876.408.492.192 1.08.384 1.764.516.9.168 1.956.228 3.108.012a7.898 7.898 0 001.74-.516c.42-.156.888-.384 1.38-.708 0 0-.6.984-2.172 1.428.36.456.792.972.792.972zm-5.58-5.604c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332.012-.732-.54-1.332-1.224-1.332zm4.38 0c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332 0-.732-.54-1.332-1.224-1.332z" fill="#B8BCCB"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
+                        </a>
+                    </div>
+                    <div class="header__connect">
+                        <a href="#">connect wallet</a>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+<main class="main">
+    <section class="prev">
+        <div class="container">
+            <div class="prev__inner">
+                <div class="prev__headline">
+                    1st Section Headline
+                </div>
+                <div class="prev__subheadline">
+                    1st Section Subheadline
+                </div>
+                <a href="#" class="prev__btn">mint</a>
+                <div class="prev__count counter">
+                    <span>1500</span> / <span> 10666 left</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="run_logo">
+        <marquee behavior="scroll" direction="right" scrollamount="20">
+            <img src="./img/jalals_nft.png" alt="">
+            <img src="./img/jalals_nft.png" alt="">
+            <img src="./img/jalals_nft.png" alt="">
+            <img src="./img/jalals_nft.png" alt="">
+        </marquee>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__left">
+                    <h3 class="about__left_title">
+                        About NFT drop
+                    </h3>
+                    <div class="about__left_text">
+                        <p>
+                            NFT stands for non-fungible tokens like ERC-721 (a smart contract standard) tokens which are hosted on Ethereum’s own blockchain. NFTs are unique digital items such as collectibles or artworks or game items are hosted on Ethereum’s own blockchain. NFTs are unique digital items such as collectibles or artworks or game items
+                        </p>
+                    </div>
+                    <div class="about__left_xxx">
+                        XXX ETH
+                    </div>
+                    <div class="about__left_count">
+                        <form class="mint__form">
+                            <input class="mint__form_input" type="number" max="9" maxlength="1">
+                            <button type="submit" class="mint__form_btn">mint</button>
+                        </form>
+                        <div class="about__left_count_count counter">
+                            <span>1500</span> / <span> 10666 left</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__right">
+                    <div class="about__right_image">
+                        <img src="./img/about_content_1.png" alt="first">
+                    </div>
+                    <div class="about__right_image">
+                        <img src="./img/about_content_2.png" alt="second">
+                    </div>
+                    <div class="about__right_image">
+                        <img src="./img/about_content_3.png" alt="third">
+                    </div>
+                    <div class="about__right_image">
+                        <img src="./img/about_content_4.png" alt="fourth">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="run_text">
+        <marquee behavior="scroll" direction="right" scrollamount="20">
+            <a href="#">Get free drop</a>  
+            <a href="#">Get free drop</a>  
+            <a href="#">Get free drop</a>  
+            <a href="#">Get free drop</a>  
+            <a href="#">Get free drop</a>  
+            <a href="#">Get free drop</a>  
+            <a href="#">Get free drop</a>  
+            <a href="#">Get free drop</a>  
+            <a href="#">Get free drop</a>  
+            <a href="#">Get free drop</a>  
+        </marquee>
+    </div>
+    <section class="bonus">
+        <div class="container">
+            <div class="bonus__inner">
+                <div class="bonus__left">
+                    <div class="bonus__left_image">
+                        <img src="./img/bonus_content_1.png" alt="bonus">
+                    </div>
+                </div>
+                <div class="bonus__right">
+                    <h3 class="bonus__right_title">
+                        Bonus drop
+                    </h3>
+                    <div class="bonus__right_text">
+                        <p>
+                            NFT stands for non-fungible tokens like ERC-721 (a smart contract standard) tokens which are hosted on Ethereum’s own blockchain. NFTs are unique digital items such as collectibles or artworks or game items are hosted on Ethereum’s own blockchain. NFTs are unique digital items such as collectibles or artworks or game items
+                        </p>
+                    </div>
+                    <div class="bonus__right_free">
+                        free for owners!
+                    </div>
+                    <div class="bonus__right_count">
+                        <form class="mint__form">
+                            <input class="mint__form_input" type="number" max="9" maxlength="1">
+                            <button type="submit" class="mint__form_btn">mint</button>
+                        </form>
+                        <div class="bonus__right_count_count counter">
+                            <span>1500</span> / <span> 10666 left</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="team">
+        <div class="container">
+            <div class="team__inner">
+                <h3 class="team__title">
+                    Team
+                </h3>
+                <div class="team__content">
+                    <a href="#" class="team__item">
+                        <div class="team__item_img">
+                            <img src="./img/team_1.png" alt="team1">
+                        </div>
+                        <div class="team__item_name">
+                            Ashton Kucher
+                        </div>
+                        <div class="team__item_descr">
+                            Product Owner
+                        </div>
+                    </a>
+                    <a href="#" class="team__item">
+                        <div class="team__item_img">
+                            <img src="./img/team_2.png" alt="team2">
+                        </div>
+                        <div class="team__item_name">
+                            Ashton Kucher
+                        </div>
+                        <div class="team__item_descr">
+                            Lead Backend
+                        </div>
+                    </a>
+                    <a href="#" class="team__item">
+                        <div class="team__item_img">
+                            <img src="./img/team_3.png" alt="team3">
+                        </div>
+                        <div class="team__item_name">
+                            Kventin Exel
+                        </div>
+                        <div class="team__item_descr">
+                            CTO
+                        </div>
+                    </a>
+                    <a href="#" class="team__item">
+                        <div class="team__item_img">
+                            <img src="./img/team_4.png" alt="team4">
+                        </div>
+                        <div class="team__item_name">
+                            Ashton Kucher
+                        </div>
+                        <div class="team__item_descr">
+                            Position
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="big">
+        <div class="container">
+            <div class="big__inner">
+                <h3 class="big__title">
+                    Big CTA headline
+                </h3>
+                <div class="big__text">
+                    <p>
+                        NFT stands for non-fungible tokens like ERC-721 (a smart contract standard) tokens which are hosted on Ethereum’s own blockchain. NFTs are unique digital items such as collectibles
+                    </p>
+                </div>
+                <a href="#" class="big__btn">mint</a>
+            </div>
+        </div>
+    </section>
+    <section class="roadmap">
+        <div class="container">
+            <div class="roadmap__inner">
+                <div class="roadmap__left">
+                    <h3 class="roadmap__left_title">
+                        Roadmap
+                    </h3>
+                    <div class="roadmap__left_text">
+                        <p>
+                            NFT stands for non-fungible tokens like ERC-721 (a smart contract standard) tokens which are hosted on Ethereum’s own blockchain. NFTs are unique digital items such as collectibles or artworks or game items are hosted on Ethereum’s own blockchain. NFTs are unique digital items such as collectibles or artworks or game items
+                        </p>
+                    </div>
+
+                </div>
+                <div class="roadmap__right">
+                    <h3 class="roadmap__right_title">
+                        FAQ
+                    </h3>
+                    <div class="roadmap__right_faq">
+                        <div class="roadmap__right_faq_item">
+                            <div class="roadmap__right_faq_item_title" onmousedown="return false" onselectstart="return false">
+                                What's an NFT? <span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 8h11M8 2.5v11" stroke="#131313" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                            </div>
+                            <div class="roadmap__right_faq_item_text">
+                                <p>
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="roadmap__right_faq_item">
+                            <div class="roadmap__right_faq_item_title" onmousedown="return false" onselectstart="return false">
+                                Digital Art <span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 8h11M8 2.5v11" stroke="#131313" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                            </div>
+                            <div class="roadmap__right_faq_item_text">
+                                <p>
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="roadmap__right_faq_item">
+                            <div class="roadmap__right_faq_item_title" onmousedown="return false" onselectstart="return false">
+                                Skins & Lens <span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 8h11M8 2.5v11" stroke="#131313" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                            </div>
+                            <div class="roadmap__right_faq_item_text">
+                                <p>
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="roadmap__right_faq_item">
+                            <div class="roadmap__right_faq_item_title" onmousedown="return false" onselectstart="return false">
+                                Fashion, but make it digital <span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 8h11M8 2.5v11" stroke="#131313" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                            </div>
+                            <div class="roadmap__right_faq_item_text">
+                                <p>
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="roadmap__right_faq_item">
+                            <div class="roadmap__right_faq_item_title" onmousedown="return false" onselectstart="return false">
+                                It's Time to Experiment <span><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 8h11M8 2.5v11" stroke="#131313" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                            </div>
+                            <div class="roadmap__right_faq_item_text">
+                                <p>
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a href="" class="footer__logo">
+                    <img src="./img/logo_f.png">
+                </a>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#" class="footer__item">mint</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__item">nft</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__item">roadmap</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__item">team</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__item">faq</a>
+                    </li>
+                </ul>
+                <div class="footer__social">
+                    <a href="#" class="footer__social_item">
+                        <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.118 12.815l.08-.137 4.875-8.23a.161.161 0 01.292.022c.815 1.97 1.517 4.42 1.188 5.945-.14.627-.525 1.477-.958 2.263a4.232 4.232 0 01-.183.334.163.163 0 01-.139.079H1.26c-.135 0-.214-.158-.142-.276z" fill="#fff"/><path d="M24 15.34v1.393c0 .08-.044.151-.108.183-.392.186-1.734.87-2.292 1.733C20.176 20.85 19.088 24 16.656 24H6.51C2.914 24 0 20.751 0 16.742v-.129c0-.106.078-.193.174-.193H5.83c.112 0 .194.116.184.238-.04.409.028.826.202 1.206.336.758 1.032 1.232 1.784 1.232h2.8v-2.43H8.032c-.142 0-.226-.182-.144-.31.03-.052.064-.105.1-.165a22.91 22.91 0 001.008-1.786c.254-.494.5-1.02.698-1.55.04-.095.072-.193.104-.288.054-.17.11-.327.15-.485.04-.133.072-.273.104-.404.094-.45.134-.925.134-1.418 0-.193-.008-.396-.024-.589a8.458 8.458 0 00-.056-.633 7.248 7.248 0 00-.078-.565c-.04-.282-.096-.562-.16-.844l-.022-.107c-.048-.193-.088-.378-.144-.57A23.245 23.245 0 009.17 5.2c-.07-.22-.15-.431-.23-.642-.118-.318-.238-.607-.348-.88a12.939 12.939 0 01-.152-.354c-.054-.13-.11-.262-.166-.386-.04-.096-.086-.185-.118-.274l-.342-.702c-.048-.095.032-.209.126-.18l2.14.645h.006l.008.002.282.087.31.097.114.036V1.236C10.8.553 11.292 0 11.9 0c.304 0 .58.138.778.362.198.225.322.531.322.874v2.097l.228.071a.176.176 0 01.052.03l.238.2c.08.07.166.157.27.246.206.184.452.422.722.696.072.068.142.14.206.21.348.36.738.783 1.11 1.25.104.13.206.264.31.404.104.142.214.282.31.422.126.187.262.38.38.582.056.096.12.194.174.29.152.255.286.52.414.784.054.122.11.255.158.386.142.354.254.714.326 1.074.022.078.038.162.046.238v.017c.024.107.032.22.04.336a3.98 3.98 0 01-.174 1.573c-.048.151-.096.31-.158.458-.12.309-.262.618-.43.907-.054.106-.118.22-.182.326-.07.114-.142.22-.206.325a6.771 6.771 0 01-.278.398 4.178 4.178 0 01-.27.377c-.134.176-.262.343-.396.503-.08.104-.166.21-.254.306-.086.107-.174.202-.254.291-.134.15-.246.265-.34.36l-.22.225a.17.17 0 01-.118.049H13v2.429h2.144c.48 0 .936-.19 1.304-.536.126-.122.676-.651 1.326-1.449a.164.164 0 01.082-.055l5.922-1.903c.11-.035.222.058.222.187z" fill="#fff"/></svg>
+                    </a>
+                    <a href="#" class="footer__social_item">
+                        <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724 9.864 9.864 0 01-3.127 1.195 4.916 4.916 0 00-3.594-1.555c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 3.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 19.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 4.557z" fill="#fff"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
+                    </a>
+                    <a href="#" class="footer__social_item">
+                        <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.54 0A2.466 2.466 0 0122 2.472V24l-2.58-2.28-1.452-1.344-1.536-1.428.636 2.22H3.46A2.466 2.466 0 011 18.696V2.472A2.466 2.466 0 013.46 0h16.08zm-4.632 15.672c2.652-.084 3.672-1.824 3.672-1.824 0-3.864-1.728-6.996-1.728-6.996-1.728-1.296-3.372-1.26-3.372-1.26l-.168.192c2.04.624 2.988 1.524 2.988 1.524a9.782 9.782 0 00-6.036-1.128l-.204.024c-.42.036-1.44.192-2.724.756-.444.204-.708.348-.708.348s.996-.948 3.156-1.572l-.12-.144s-1.644-.036-3.372 1.26c0 0-1.728 3.132-1.728 6.996 0 0 1.008 1.74 3.66 1.824 0 0 .444-.54.804-.996-1.524-.456-2.1-1.416-2.1-1.416l.336.204.048.036.047.027.014.006.047.027c.3.168.6.3.876.408.492.192 1.08.384 1.764.516.9.168 1.956.228 3.108.012a7.898 7.898 0 001.74-.516c.42-.156.888-.384 1.38-.708 0 0-.6.984-2.172 1.428.36.456.792.972.792.972zm-5.58-5.604c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332.012-.732-.54-1.332-1.224-1.332zm4.38 0c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332 0-.732-.54-1.332-1.224-1.332z" fill="#fff"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
+                    </a>
+                    <a href="#" class="footer__social_item">
+                        <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0C.488 3.45.029 5.804 0 12c.029 6.185.484 8.55 4.385 8.816 3.6.245 11.626.246 15.23 0C23.512 20.55 23.971 18.196 24 12c-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 3.993L9 16z" fill="#fff"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
+                    </a>
+                    <a href="#" class="footer__social_item">
+                        <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" fill="#fff"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <div class="footer__copy_left">
+                    jalals - nft © 2021
+                </div>
+                <div class="footer__copy_right">
+                    <a class="terms" href="#">
+                        Terms of service
+                    </a>
+                    <a href="#" class="privacy">
+                        Privacy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="header__burger_menu">
+    <ul class="header__burger_list">
+        <li>
+            <a href="#" class="header__burger_item">mint</a>    
+        </li>
+        <li>
+            <a href="#" class="header__burger_item">nft</a>
+        </li>
+        <li>
+            <a href="#" class="header__burger_item">roadmap</a>
+        </li>
+        <li>
+            <a href="#" class="header__burger_item">team</a>
+        </li>
+        <li>
+            <a href="#" class="header__burger_item">faq</a>
+        </li>
+        <li>
+            <a href="#" class="header__burger_item burger_connect">connect</a>
+        </li>
+    </ul>
+</div>
+    <script src="js/bundle.js"></script>
+</body>
+</html>
