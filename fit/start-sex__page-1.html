@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш пол</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <main class="main" id="main">
+            <div class="start_sex__inner">
+                <div class="start_sex__top">
+                    <h1 class="start_sex__title title">
+                        Какого вы пола?
+                    </h1>
+                    <div class="start_sex__subtitle subtitle">
+                        Выберите свой пол
+                    </div>
+                </div>
+                <div class="start_sex__mid">
+                    <form class="start_sex__form" data-sex="">
+                        <label class="start_sex__form_male">
+                            <span>Мужской</span>
+                            <input class="start_sex__form_input_male" type="radio" name="sex">
+                            <div class="start_sex__form_male_box"></div>
+                        </label>
+                        <label class="start_sex__form_female">
+                            <span>Женский</span>
+                            <input class="start_sex__form_input_female" type="radio" name="sex">
+                            <div class="start_sex__form_female_box"></div>
+                        </label>
+                    </form>
+                </div>
+                <div class="bottom-pagination">
+                    <div class="bottom-pagination_pag">
+                        <a class="bottom-pagination_pag_left">
+                            <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.67 1.87L9.9.1 0 10l9.9 9.9 1.77-1.77L3.54 10l8.13-8.13z" fill="gray"/></svg>
+                        </a>
+                        <span class="active-page">1</span>
+                        из
+                        <span>10</span>
+                        <a href="./start-param__page-2.html" class="bottom-pagination_pag_right">
+                            <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.33 1.87L2.1.1 12 10l-9.9 9.9-1.77-1.77L8.46 10 .33 1.87z" fill="gray"/></svg>
+                        </a>
+                    </div>
+                    <a href="./start-param__page-2.html" class="bottom-pagination_btn btn">Далее</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./js/bundle.js"></script>
+</body>
+</html>

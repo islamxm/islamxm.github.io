@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Как проходит ваш день</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <main class="main" id="main">
+            <div class="q-day__inner">
+                <div class="select-grid__top">
+                    <h2 class="select-grid__title title_s">
+                        Как обычно проходит<br>ваш день?
+                    </h2>
+                </div>
+                <div class="select-grid__mid">
+                    <form class="select-grid__form">
+                        <div class="select-grid__form_item">
+                            <input type="radio" id="sit" name="day-spend">
+                            <label for="sit">
+                                <picture>
+                                    <source srcset="./img/day1@1.png 1x, ./img/day1@2.png 2x">
+                                    <img src="./img/day1@1.png" alt="Целый день сижу">
+                                </picture>
+                                <div>
+                                    Целый день<br>сижу
+                                </div>
+                            </label>
+                        </div>
+                        <div class="select-grid__form_item">
+                            <input type="radio" id="stay" name="day-spend">
+                            <label for="stay">
+                                <picture>
+                                    <source srcset="./img/day2@1.png 1x, ./img/day2@2.png 2x">
+                                    <img src="./img/day2@1.png" alt="Целый день сижу">
+                                </picture>
+                                <div>
+                                    Целый день<br>стою
+                                </div>
+                            </label>
+                        </div>
+                        <div class="select-grid__form_item">
+                            <input type="radio" id="active" name="day-spend">
+                            <label for="active">
+                                <picture>
+                                    <source srcset="./img/day3@1.png 1x, ./img/day3@2.png 2x">
+                                    <img src="./img/day3@1.png" alt="Целый день сижу">
+                                </picture>
+                                <div>
+                                    Немного<br>активности
+                                </div>
+                            </label>
+                        </div>
+                        <div class="select-grid__form_item">
+                            <input type="radio" id="noinfo" name="day-spend">
+                            <label for="noinfo">
+                                <picture>
+                                    <source srcset="./img/day4@1.png 1x, ./img/day4@2.png 2x">
+                                    <img src="./img/day4@1.png" alt="Целый день сижу">
+                                </picture>
+                                <div>
+                                    Трудно<br>ответить
+                                </div>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="bottom-pagination">
+                    <div class="bottom-pagination_pag">
+                        <a href="./q-activity__page-5.html" class="bottom-pagination_pag_left">
+                            <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.67 1.87L9.9.1 0 10l9.9 9.9 1.77-1.77L3.54 10l8.13-8.13z" fill="gray"/></svg>
+                        </a>
+                        <span class="active-page">
+                            6
+                        </span>
+                        из
+                        <span>10</span>
+                        <a href="./q-1__page-7.html" class="bottom-pagination_pag_right">
+                            <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.33 1.87L2.1.1 12 10l-9.9 9.9-1.77-1.77L8.46 10 .33 1.87z" fill="gray"/></svg>
+                        </a>
+                    </div>
+                    <a href="./q-1__page-7.html" class="bottom-pagination_btn btn">Далее</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./js/bundle.js"></script>
+</body>
+</html>

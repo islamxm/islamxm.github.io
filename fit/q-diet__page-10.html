@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Какое у вас питание</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <main class="main" id="main">
+            <div class="q-diet">
+                <div class="select-grid__top">
+                    <h2 class="select-grid__title title_s">
+                        Какого питания вы<br>придерживаетесь?
+                    </h2>
+                </div>
+                <div class="select-grid__mid">
+                    <form class="select-grid__form">
+                        <div class="select-grid__form_item">
+                            <input type="radio" id="normal" name="food">
+                            <label for="normal">
+                                <picture>
+                                    <source srcset="./img/diet1@1x.png 1x, ./img/diet1@2x.png 2x">
+                                    <img src="./img/diet1@1x.png" alt="Целый день сижу">
+                                </picture>
+                                <div>
+                                    Целый день<br>сижу
+                                </div>
+                            </label>
+                        </div>
+                        <div class="select-grid__form_item">
+                            <input type="radio" id="no-meat" name="food">
+                            <label for="no-meat">
+                                <picture>
+                                    <source srcset="./img/diet2@1x.png 1x, ./img/diet2@2x.png 2x">
+                                    <img src="./img/diet2@1x.png" alt="Целый день сижу">
+                                </picture>
+                                <div>
+                                    Целый день<br>стою
+                                </div>
+                            </label>
+                        </div>
+                        <div class="select-grid__form_item">
+                            <input type="radio" id="fastfood" name="food">
+                            <label for="fastfood">
+                                <picture>
+                                    <source srcset="./img/diet3@1x.png 1x, ./img/diet3@2x.png 2x">
+                                    <img src="./img/diet3@1x.png" alt="Целый день сижу">
+                                </picture>
+                                <div>
+                                    Немного<br>активности
+                                </div>
+                            </label>
+                        </div>
+                        <div class="select-grid__form_item">
+                            <input type="radio" id="noinfo" name="food">
+                            <label for="noinfo">
+                                <picture>
+                                    <source srcset="./img/diet4@1x.png 1x, ./img/diet4@2x.png 2x">
+                                    <img src="./img/diet4@1x.png" alt="Целый день сижу">
+                                </picture>
+                                <div>
+                                    Трудно<br>ответить
+                                </div>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="bottom-pagination">
+                    <div class="bottom-pagination_pag">
+                        <a href="./q-3__page-9.html" class="bottom-pagination_pag_left">
+                            <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.67 1.87L9.9.1 0 10l9.9 9.9 1.77-1.77L3.54 10l8.13-8.13z" fill="gray"/></svg>
+                        </a>
+                        <span class="active-page">
+                            10
+                        </span>
+                        из
+                        <span>10</span>
+                        <a href="#" class="bottom-pagination_pag_right">
+                            <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.33 1.87L2.1.1 12 10l-9.9 9.9-1.77-1.77L8.46 10 .33 1.87z" fill="gray"/></svg>
+                        </a>
+                    </div>
+                    <a href="#" class="bottom-pagination_btn btn">Далее</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./js/bundle.js"></script>
+</body>
+</html>

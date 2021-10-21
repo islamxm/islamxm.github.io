@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваши параметры</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <main class="main" id="main">
+            <div class="start_param__inner">
+                <div class="start_param__top">
+                    <h2 class="start_param__title title">Ваши параметры</h2>
+                    <div class="start_param__subtitle subtitle">Укажите свой рост и вес</div>
+                    <div class="apple_health">
+    <input class="apple_health_checkbox" type="checkbox" id="apple" name="apple-health">
+    <label class="apple_health_label" for="apple">
+        <img src="../img/apple-health.png">
+        Подключить<br>«Здоровье» от Apple
+    </label>
+</div>
+                </div>
+
+                <div class="start_param__mid">
+                    <form class="start_param__mid_form">
+                        <input class="kg_sm" type="radio" name="unit" id="kg_sm" checked>
+                        <input class="lb_ft" type="radio" name="unit" id="lb_ft">
+                        <div class="start_param__mid_form_ui">
+                            <label class="for_kg_sm"for="kg_sm">Кг, См</label>
+                            <label class="for_lb_ft"for="lb_ft">Lb, Ft</label>
+                        </div>
+                        <div class="start_param__mid_form_fields">
+                            <div class="start_param__mid_form_fields_age">
+                                <label for="age">Возраст</label>
+                                <div>
+                                    <input type="number" id="age" name="age" placeholder="0 лет">
+                                    <a href="#">
+                                        <img src="./img/pen.svg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="start_param__mid_form_fields_height">
+                                <label for="height">Рост</label>
+                                <div>
+                                    <input type="number" id="height" name="height" placeholder="0 см">
+                                    <a href="./start-param-height.html">
+                                        <img src="./img/pen.svg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="start_param__mid_form_fields_weight">
+                                <label for="weight">Текущий вес</label>
+                                <div>
+                                    <input type="number" id="weight" name="weight" placeholder="0 кг">
+                                    <a href="#">
+                                        <img src="./img/pen.svg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="start_param__mid_form_fields_want-weight">
+                                <label for="want-weight">Желаемый вес</label>
+                                <div>
+                                    <input type="number" id="want-weight" name="want-weight" placeholder="0 кг">
+                                    <a href="#">
+                                        <img src="./img/pen.svg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="bottom-pagination">
+                    <div class="bottom-pagination_pag">
+                        <a href="./start-sex__page-1.html" class="bottom-pagination_pag_left">
+                            <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.67 1.87L9.9.1 0 10l9.9 9.9 1.77-1.77L3.54 10l8.13-8.13z" fill="gray"/></svg>
+                        </a>
+                        <span class="active-page">2</span>
+                        из
+                        <span>10</span>
+                        <a href="./work-woman__page-3.html" class="bottom-pagination_pag_right">
+                            <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.33 1.87L2.1.1 12 10l-9.9 9.9-1.77-1.77L8.46 10 .33 1.87z" fill="gray"/></svg>
+                        </a>
+                    </div>
+                    <a href="./work-woman__page-3.html" class="bottom-pagination_btn btn">Далее</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./js/bundle.js"></script>
+</body>
+</html>

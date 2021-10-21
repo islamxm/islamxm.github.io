@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вопрос 3</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <main class="main" id="main">
+            <div class="q-3">
+                <div class="q__top">
+                    <h2 class="q__title title_s">
+                        Придерживаетесь ли вы<br>режима в питании?
+                    </h2>
+                </div>
+                <div class="q__img">
+                    <picture>
+                        <source srcset="./img/apple@1x.png 1x, ./img/apple@2x.png 2x">
+                        <img src="./img/apple@1x.png" alt="Apple">
+                    </picture>
+                </div>
+                <div class="q__mid">
+                    <form class="q__form">
+                        <div class="q__form_wrap">
+                            <input type="radio" name="diet" id="no">
+                            <label for="no">Нет</label>
+                        </div>
+                        <div class="q__form_wrap">
+                            <input type="radio" name="diet" id="yes">
+                            <label for="yes">Да</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="bottom-pagination">
+                    <div class="bottom-pagination_pag">
+                        <a href="./q-2__page-8.html" class="bottom-pagination_pag_left">
+                            <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.67 1.87L9.9.1 0 10l9.9 9.9 1.77-1.77L3.54 10l8.13-8.13z" fill="gray"/></svg>
+                        </a>
+                        <span class="active-page">9</span>
+                        из
+                        <span>10</span>
+                        <a href="./q-diet__page-10.html" class="bottom-pagination_pag_right">
+                            <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.33 1.87L2.1.1 12 10l-9.9 9.9-1.77-1.77L8.46 10 .33 1.87z" fill="gray"/></svg>
+                        </a>
+                    </div>
+                    <a href="./q-diet__page-10.html" class="bottom-pagination_btn btn">Далее</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./js/bundle.js"></script>
+</body>
+</html>
